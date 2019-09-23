@@ -22,6 +22,8 @@ Despite the ATtiny13 we are targeting having only 1k of flash program space, we 
 
 The LED animation was designed to take as little space as possible and just reflects the duration of the current note in brightness.
 
+You may need LTO enabled when compiling to get everything to fit.
+
 ## Circuit design
 
 Normally you can drive a piezo off of one microcontroller pin. The results may vary however, and will probably not be loud enough to compete with any other noise in the room.
